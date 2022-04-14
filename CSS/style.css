@@ -1,0 +1,269 @@
+.main {
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    }
+    .nav {
+        width: 40%;
+        margin-top: 2%;
+        margin-left: 30%;
+        height: 50%;
+    }
+    .img {
+        width: 60%;
+        height: 60%;
+        margin-left: 15%;
+    }
+    .text {
+        font-family: 'Montserrat';
+        text-align: center;
+        color: #2E2E2E;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        width: 100%;
+    }
+    .second-text {
+        text-align: center;
+        font-family: 'Montserrat';
+        color: #2E2E2E;
+        font-weight: 500;
+    }
+    .text-victorin{
+        font-family: 'Montserrat';
+        color: #7350F2;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        margin-left: 4.3%;
+    }
+    .list{
+    width:100%;
+    height: 20%;
+    }
+    .block{
+        display: flex;
+        width: 100%;
+    }
+    .button {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 2.55%;
+        margin-top: 5%;
+        border: 1px solid #7350F2;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(89, 50, 234, 0.25));
+    border-radius: 10px;
+    cursor: pointer;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #7350F2;
+    }
+    .img-list {
+        position: absolute;
+        filter: drop-shadow(5px -4px 10px rgba(0, 0, 0, 0.17)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.5));
+    }
+    .section{
+        width: 100%;
+    }
+    .results {
+        font-family: 'Montserrat';
+        color: #7350F2;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 26px;
+        margin-left: 5%;
+    }
+    
+    .slider-track {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        user-select: none;
+        touch-action: pan-y;
+    }
+    .carousel-inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 4%;
+    }
+    .ButtonText {
+        font-family: 'Montserrat';
+        margin-top: 20%;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        cursor: pointer;
+    }
+    .images{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        pointer-events: none;
+    }
+    .prev{
+        cursor: pointer;
+        position: absolute;
+        pointer-events: none;
+    }
+    .next {
+        position: absolute;
+        cursor: pointer;
+        pointer-events: none;
+    }
+.slider-list.grab {
+    cursor: grab;
+  }
+  
+  .slider-list.grabbing{
+    cursor: grabbing;
+  }
+  
+  .slider-track {
+    display: flex;
+  }
+  .slider img {
+    pointer-events: none;
+  }
+  .slide {
+    display: flex;
+    align-items: center;
+  }
+  .slider-arrows {
+    cursor: pointer;
+    pointer-events: none;
+  }
+  .text-results{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  .second-results{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: flex-start;
+    margin-left: 2%;
+  }
+  .text-results-div{
+      display: flex;
+      margin-left: 5%;
+      width: 50%;
+  }
+  .bottom-button{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    margin-left: 5%;
+    width: 13%;
+    height: 35px;
+    color: #FAFAFA;
+    background: linear-gradient(100.34deg, rgba(253, 175, 250, 0.5) -9.02%, rgba(255, 255, 255, 0) 137.35%), #5932EA;
+box-shadow: 0px 4px 4px rgba(89, 50, 234, 0.25);
+border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3%;
+  }
+  .create {
+    margin-left: 37%;
+    margin-top: 10%;
+  }
+  .create-button{
+    border: 1px solid #5932EA;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 50%;
+    height: 70px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+cursor: pointer;
+color: rgba(89, 50, 234, 0.46);
+  }
+  .create-button:hover{
+    background: #5932EA;
+    box-shadow: 0px 2px 16px #5932EA;
+    border-radius: 20px;
+    color: #FAFAFA;
+  }
+  .canva{
+      margin-left: 70%;
+      width: 40%;
+      height: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    color: #5932EA;
+  }
+  .diagram{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%
+  }
+  .studBlock{
+      height: 200px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: column;
+  }
+  .columm{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+  }
+  .studBlock:first-child .columm {
+    background: rgba(114, 80, 242, 0.32);
+    box-shadow: 0px 9px 5px rgba(114, 80, 242, 0.13);
+    border-radius: 5px;
+    height: 85%;
+  }
+  .studBlock:nth-child(2) .columm {
+    background: rgba(114, 80, 242, 0.32);
+    box-shadow: 0px 9px 5px rgba(114, 80, 242, 0.13);
+    border-radius: 5px;
+    height: 50%;
+  }
+  .studBlock:nth-child(3) .columm {
+    background: #7250F2;
+box-shadow: 0px 9px 5px rgba(114, 80, 242, 0.13);
+border-radius: 5px;
+    height: 100%;
+  }
+  .studBlock:nth-child(4) .columm {
+    background: rgba(114, 80, 242, 0.32);
+    box-shadow: 0px 9px 5px rgba(114, 80, 242, 0.13);
+    border-radius: 5px;
+    height: 83%;
+  }
+  .studBlock:last-child .columm {
+    background: rgba(114, 80, 242, 0.32);
+    box-shadow: 0px 9px 5px rgba(114, 80, 242, 0.13);
+    border-radius: 5px;
+    height: 20%;
+  }
